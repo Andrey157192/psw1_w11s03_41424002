@@ -1,16 +1,16 @@
-// src/components/Dashboard.js
+
 import React from 'react';
-import './Dashboard.css'; // Make sure your styles are in the correct path
-import { Link } from 'react-router-dom'; // For routing
+import './Dashboard.css';
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
     return (
         <div className="dashboard">
-            {/* Sidebar */}
+           
             <aside className="sidebar">
                 <div className="logo">
-                    <img src="image.png" alt="School Logo" />
-                    <h2>ABC High School</h2>
+                    <img src="bt.png" alt="bt.png" />
+                    <h2>SMA SW BTS</h2>
                 </div>
                 <nav>
                     <ul>
@@ -22,6 +22,11 @@ const Dashboard = () => {
                         <li className="nav-item">
                             <Link to="/schedule">
                                 <i className="fas fa-calendar-alt"></i> Schedule
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/Facilites">
+                                <i className="fas fa-calendar-alt"></i> Grades
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -57,15 +62,15 @@ const Dashboard = () => {
                 </div>
             </aside>
 
-            {/* Main Content */}
+           
             <main className="main-content">
-                {/* Header */}
+           
                 <header>
                     <h1>Welcome, [User]</h1>
                     <p>Here’s an overview of your school activities</p>
                 </header>
 
-                {/* Overview Section */}
+           
                 <section className="overview">
                     <div className="card schedule">
                         <h3>Today's Schedule</h3>
@@ -81,7 +86,7 @@ const Dashboard = () => {
                     </div>
                 </section>
 
-                {/* Analytics Section */}
+           
                 <section className="analytics">
                     <div className="chart">
                         <h3>Attendance</h3>
@@ -122,7 +127,7 @@ const Dashboard = () => {
                     </div>
                 </section>
 
-                {/* Additional Information Section */}
+           
                 <section className="additional-info">
                     <div className="card class-stats">
                         <h3>Class Statistics</h3>

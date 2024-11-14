@@ -1,0 +1,76 @@
+/* App.css */
+.app {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px;
+    background-color: #f4c542;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar h2 {
+    margin: 10px 0;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar nav ul li {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .active-teachers {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .teachers img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  /* Main Content styling */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    margin-bottom: 20px;
+  }
+  
+  /* Schedule Table styling */
+  .schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .schedule-table th {
+    background-color: #f4c542;
+  }
+  
+  .schedule-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
