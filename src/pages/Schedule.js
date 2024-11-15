@@ -56,15 +56,15 @@ const Schedule = () => {
                 </div>
             </aside>
 
-            {/* Main Content */}
+           
             <main className="main-content">
-                {/* Header */}
+             
                 <header>
                     <h1>Weekly Schedule</h1>
                     <p>Here’s an overview of your school activities for the week</p>
                 </header>
 
-                {/* Schedule Table */}
+                
                 <section className="schedule-section">
                     <table className="schedule-table">
                         <thead>

@@ -26,7 +26,7 @@ const Dashboard = () => {
                         </li>
                         <li className="nav-item">
                             <Link to="/Facilites">
-                                <i className="fas fa-calendar-alt"></i> Grades
+                                <i className="fas fa-calendar-alt"></i> Facilites
                             </Link>
                         </li>
                         <li className="nav-item">

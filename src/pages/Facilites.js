@@ -20,7 +20,7 @@ const Facilities = () => {
 
     return (
         <div className="dashboard">
-            {/* Sidebar */}
+            
             <aside className="sidebar">
                 <div className="logo">
                     <img src="bt.png" alt="School Logo" />
@@ -76,15 +76,15 @@ const Facilities = () => {
                 </div>
             </aside>
 
-            {/* Main Content */}
+           
             <main className="main-content">
-                {/* Header */}
+               
                 <header>
                     <h1>Facilities</h1>
                     <p>Explore the facilities available at our school.</p>
                 </header>
 
-                {/* Facilities List */}
+               
                 <section className="facilities-list">
                     <h3>Available Facilities</h3>
                     <ul className="facility-items">
@@ -100,7 +100,7 @@ const Facilities = () => {
                     </ul>
                 </section>
 
-                {/* Facility Details */}
+               
                 {selectedFacility && (
                     <section className="facility-details">
                         <h3>{selectedFacility.name}</h3>
